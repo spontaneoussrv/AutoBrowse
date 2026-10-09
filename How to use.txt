@@ -1,0 +1,26 @@
+AutoBrowse
+
+STARTING IT
+Double click AutoBrowse.pyw (Python 3.10 or newer must be installed).
+The first start installs every needed library by itself.
+
+ONE TIME CHROME SETUP
+1. Open Settings and pick your Chrome profile (the one where your websites are logged in).
+2. Click Install Chrome helper. In Chrome turn on Developer mode, click Load unpacked,
+   paste the folder path (already copied) and click Select Folder.
+3. The status turns green: Chrome helper connected.
+If Chrome is closed, AutoBrowse opens it automatically with your profile.
+
+ADDING A WEBSITE
+1. Click Add website and type the address.
+2. Refresh timing: Fixed (every X minutes) or Random (between X and Y minutes).
+3. Browsing behavior: pages per visit, time on each page, scrolling, return to main page.
+4. Pages to click: write link names or addresses separated by commas,
+   for example  Orders, Reports, /dashboard . One is picked at random each time.
+   Leave it empty to click any page of the website.
+5. Never click links containing: words that must never be clicked
+   (logout, delete, checkout, payment and more are already there).
+6. Click Save. Closing the window keeps AutoBrowse running in the system tray.
+
+TRAY ICON (right click)
+Open AutoBrowse, Visit all now, Pause or Resume, Exit. The icon turns grey while paused.
